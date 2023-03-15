@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutFragment">
+
+
+ <androidx.constraintlayout.widget.ConstraintLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:background="@color/blue">
+
+     <androidx.appcompat.widget.AppCompatTextView
+         android:id="@+id/appCompatTextView2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="ABOUT US"
+         android:textColor="#000000"
+         android:textSize="30sp"
+         app:fontFamily="@font/lacquer"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.498"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.125" />
+
+     <androidx.appcompat.widget.AppCompatTextView
+         android:id="@+id/appCompatTextView"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:padding="30dp"
+         android:text="Welcome to our recycle app! We're a team of eco-conscious individuals committed to making the world a better place. Our app is designed to help you easily recycle items and reduce waste in your community. By using our app, you can quickly locate recycling centers, learn about proper recycling techniques, and track your recycling progress. We believe that every small step towards sustainability counts, and we're thrilled to have you on board with us. Let's work together to create a more sustainable future for our planet."
+         android:textAlignment="center"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.0"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.374" />
+
+     <ImageView
+         android:id="@+id/imageView"
+         android:layout_width="281dp"
+         android:layout_height="272dp"
+         android:src="@drawable/bao_conscious_consumption_1"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toBottomOf="@+id/appCompatTextView" />
+
+     <ImageButton
+         android:id="@+id/btn_aboutReturnHome"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:background="#00FFFFFF"
+         android:src="@drawable/icons8_home_page_48"
+         app:layout_constraintBottom_toBottomOf="parent"
+         app:layout_constraintEnd_toEndOf="parent"
+         app:layout_constraintHorizontal_bias="0.909"
+         app:layout_constraintStart_toStartOf="parent"
+         app:layout_constraintTop_toTopOf="parent"
+         app:layout_constraintVertical_bias="0.04" />
+
+ </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+</FrameLayout>
